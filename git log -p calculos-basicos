@@ -1,0 +1,32 @@
+[1mdiff --cc calculos/basico-subtracao.js[m
+[1mindex 29ed979,2fcb793..0000000[m
+[1m--- a/calculos/basico-subtracao.js[m
+[1m+++ b/calculos/basico-subtracao.js[m
+[36m@@@ -7,3 -7,4 +7,7 @@@[m [mexport function subtrairStrings(...nume[m
+    const valores = numeros.map((n) => Number(n));[m
+    return subtrairNumerosArray(valores);[m
+  }[m
+[32m++<<<<<<< HEAD[m
+[32m++=======[m
+[32m+ [m
+[32m++>>>>>>> calculos-basicos[m
+[1mdiff --cc test.js[m
+[1mindex 657b2b1,3467ab2..0000000[m
+[1m--- a/test.js[m
+[1m+++ b/test.js[m
+[36m@@@ -1,1 -1,11 +1,15 @@@[m
+[32m++<<<<<<< HEAD[m
+[32m +console.log("Ainda não há testes implementados");[m
+[32m++=======[m
+[32m+ import {[m
+[32m+   somarNumeros,[m
+[32m+   somarStrings,[m
+[32m+   somarNumerosArray,[m
+[32m+   somarStringsArray,[m
+[32m+ } from "./calculos/basicos-soma.js";[m
+[32m+ [m
+[32m+ console.log(somarNumeros(1, 2, 3));[m
+[32m+ console.log(somarStrings("1", "2", "3"));[m
+[32m+ console.log(somarNumerosArray([1, 2, 3]));[m
+[32m+ console.log(somarStringsArray(["1", "2", "3"]));[m
+[32m++>>>>>>> calculos-basicos[m
